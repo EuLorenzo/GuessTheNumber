@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o número</title>
+    <link rel="stylesheet" href="2_estilo.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body onload="sorteio()">
+    <header>
+        <h1>Adivinhe o número</h1>
+    </header>
+
+    <section>
+        <!--Div de interação-->
+        <div>
+            <h2>Duvido você acertar !</h2>
+            <p><input type="button" value="Adivinhe aqui" id="txtAdivinha" onclick="adivinha()"></p>
+        </div>
+
+
+        <!--Div de resultados-->
+        <div id="res">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;LorenzoFrinhani</p>
+    </footer>
+
+    <script src="3_script.js"></script>
+</body>
+</html>
